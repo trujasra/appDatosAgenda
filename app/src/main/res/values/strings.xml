@@ -1,0 +1,11 @@
+<resources>
+    <string name="app_name">appDatosAgenda</string>
+    <string name="title_activity_main">MainActivity</string>
+    <string name="hint_nombres">Ingrese nombres</string>
+    <string name="hint_primer_apellido">Ingrese el primer apellido</string>
+    <string name="hint_segundo_apellido">Ingrese el segundo apellido</string>
+    <string name="hint_contrasena">Ingrese contraseña</string>
+    <string name="hint_rep_contrasena">Vuelva ingresar la contraseña</string>
+    <string name="btn_guardar">Guardar</string>
+    <string name="btn_limpiar">Limpiar</string>
+</resources>
