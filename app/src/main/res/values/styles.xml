@@ -6,9 +6,6 @@
         <item name="colorPrimary">@color/colorPrimary</item>
         <item name="colorPrimaryDark">@color/colorPrimaryDark</item>
         <item name="colorAccent">@color/colorAccent</item>
-
-
-
     </style>
 
     <style name="EstiloBoton" parent="Theme.AppCompat.Light">
@@ -30,19 +27,22 @@
     <style name="estilo_Textlayout" parent="@android:style/TextAppearance">
         <item name="android:textColor">@color/colorEditTextBlanco</item>
         <item name="android:textSize">@dimen/edit_text_registro</item>
-        <item name="colorAccent">@color/colorEditTextBlanco</item>
     </style>
 
     <!--Campo Texto -->
     <style name="estilo_text" parent="AppTheme">
-        <item name="android:textColor">@color/colorEditTextBlanco</item>
         <!-- cursor y línea normal-->
         <item name="colorControlNormal">@color/colorEditTextBlanco</item>
         <!-- cursor y línea con foco-->
         <item name="colorControlActivated">@color/colorAccentEditText</item>
         <item name="android:textColorPrimary">@color/colorEditTextBlanco</item>
-
     </style>
 
-
+    <!-- mensaje de error debajo del EditText-->
+    <style name="EditTextError" parent="TextAppearance.Design.Error">
+        <item name="android:textColor">@color/colorAccent</item>
+        <item name="colorControlActivated">@color/colorAccent</item>
+        <item name="android:textSize">@dimen/error_textSize</item>
+    </style>
+s
 </resources>
